@@ -1,0 +1,35 @@
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 30px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-icons {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px 0 15px;
+  cursor: pointer;
+}
+
+.footer-icons__desc {
+  margin-top: 5px;
+  font-weight: bold;
+  transform: scale(0.8);
+}
+
+.footer-icons__img {
+  width: 30px;
+}
